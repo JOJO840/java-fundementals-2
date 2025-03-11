@@ -31,7 +31,7 @@ public class bankApp {
     }
 
     public boolean blackCard(boolean blackCard) {
-        if (blackCard == true) {
+        if (blackCard) {
             System.out.println("you are special! ");
         }
         return blackCard;
